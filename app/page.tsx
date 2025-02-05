@@ -7,6 +7,7 @@ export default function Home() {
         <div className={styles.sun}>
           <div className={styles.sunFade}></div>
         </div>
+        <div className={styles.field}></div>
       </div>
     </div>
   );

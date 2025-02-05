@@ -8,8 +8,9 @@
 
 .hero {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   min-height: 100dvh;
 }
 
@@ -47,4 +48,15 @@
     transparent 90%,
     black 90%
   );
+}
+
+.field {
+  margin-top: -35dvh;
+  height: 70dvh;
+  width: 300dvw;
+  transform: perspective(50px) rotateX(30deg);
+  background: black;
+  background-position-x: 5dvw;
+  background-size: 10dvw 70dvh;
+  background-image: linear-gradient(90deg, rgb(100, 0, 150) 2px, transparent 0);
 }
